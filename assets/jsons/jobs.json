@@ -3,14 +3,18 @@
     "title": "<stron>Software developer</strong> - 1'5 years",
     "timeframe": "07.2018 - 12.2019",
     "place": "EOSOL Energy SL. | Pamplona, Spain",
-    "url": "https://frv.com/en/projects/san-luis-de-potosi/",
     "description": "Designing, Developing & Maintaining the Data system of the biggest Solar plants in Mexico. <a style='color:#ee4565' href='https://frv.com/en/projects/san-luis-de-potosi/'>link</a>. <br><br> Be responsible of the automatic & personalized report generation. Service built with Python. Investigate Machine learning solutions to optimize solar devices performance."
   },
   {
     "title": "<stron>Sales Agent</strong> - 6 months",
     "timeframe": "08.2017 - 1.2018",
     "place": "Grupo Naviser | Pamplona, Spain",
-    "url": "https://frv.com/en/projects/san-luis-de-potosi/",
     "description": "Sales energy and gas contracts promoted after 3 months to be responsible of new interns."
+  },
+  {
+    "title": "<stron>Internship</strong> - 2 months",
+    "timeframe": "07.2015 - 08.2015",
+    "place": "Atkins | Colchester, United Kingdom",
+    "description": "Designing with AutoCAD & SketchUp Tesco's mall project."
   }
 ]
