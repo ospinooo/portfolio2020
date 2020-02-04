@@ -60,7 +60,7 @@ function parseScroll() {
         }
         else {
             navcpy.classList.remove("sticky-menu");
-            navcpy.style.width = "100%";
+            // navcpy.style.width = "100%";
             padding.style.paddingTop = "0";
         }
     }
