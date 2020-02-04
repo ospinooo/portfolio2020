@@ -38,9 +38,9 @@ var Menu = /** @class */ (function () {
 var bodys = document.getElementsByClassName("main-body");
 var menu = new Menu();
 var singleBody;
-menu.addItem("about", "About me");
-menu.addItem("experience", "Experience");
 menu.addItem("projects", "projects");
+menu.addItem("experience", "Experience");
+menu.addItem("about", "About me");
 for (var _i = 0, bodys_1 = bodys; _i < bodys_1.length; _i++) {
     var body = bodys_1[_i];
     body.prepend(menu.generate());
