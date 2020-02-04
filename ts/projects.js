@@ -23,13 +23,22 @@ var Project = /** @class */ (function () {
         var h3 = document.createElement("h3");
         var h4 = document.createElement("h4");
         var p = document.createElement("p");
+        var li = docuemtn.createElement("ul");
         div.classList.add("text");
         h3.innerHTML = this.desc.title;
         h4.innerHTML = this.desc.date;
         p.innerHTML = this.desc.description;
+
+        this.desc.stack.forEach((value) => {
+            let item = document.createElement("li");
+            item.innerHTML = value;
+            li.appendChild(item);
+        })
+
         div.appendChild(h3);
         div.appendChild(h4);
         div.appendChild(p);
+        div.appendChild(li);
         return div;
     };
     return Project;
