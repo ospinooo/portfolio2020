@@ -26,7 +26,7 @@ var Menu = /** @class */ (function () {
     };
     Menu.prototype.generate = function () {
         var nav = document.createElement("nav");
-        nav.classList.add("index-menu", "center-text", "slide-bottom-children");
+        nav.classList.add("index-menu", "center-text", "slide-bottom-children", "unselectable");
         for (var _i = 0, _a = this.items; _i < _a.length; _i++) {
             var item = _a[_i];
             nav.appendChild(item.generate());

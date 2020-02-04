@@ -32,6 +32,7 @@ function slideDOM() {
             child.addEventListener("mouseout", function (event) {
                 if (!child.classList.contains("swing-out")) {
                     child.classList.add("swing-out");
+                    child.classList.add("unselectable");
                 }
             });
         };
