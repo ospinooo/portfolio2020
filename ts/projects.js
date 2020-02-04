@@ -42,7 +42,6 @@ var Project = /** @class */ (function () {
         div.appendChild(p);
         div.append(stack_title);
         div.appendChild(ul);
-
         return div;
     };
     return Project;
