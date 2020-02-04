@@ -23,7 +23,7 @@ var Project = /** @class */ (function () {
         var h3 = document.createElement("h3");
         var h4 = document.createElement("h4");
         var p = document.createElement("p");
-        var ul = docuemtn.createElement("ul");
+        var ul = document.createElement("ul");
         div.classList.add("text");
         h3.innerHTML = this.desc.title;
         h4.innerHTML = this.desc.date;
