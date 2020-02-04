@@ -33,7 +33,7 @@
     "url": "https://github.com/ospinooo/flappy_bird",
     "description": "Simple AI that learns to play flappy bird following the neat algorithm. Consist of a Genetic Algorithm for the generation of evolving Artificial Neural Networks. Alters weights and network structure in each generation.",
     "stack": [
-      "Python",
+      "<strong>Python</strong>",
       "Neat",
       "Generative Algorithms",
       "Deep Learning"
