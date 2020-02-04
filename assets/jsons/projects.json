@@ -16,7 +16,7 @@
   {
     "title": "React Portfolio",
     "date": "2019",
-    "imgUrl": "assets/img/flappy_bird/part2.gif",
+    "imgUrl": "assets/img/portfolio/portfolio.png",
     "url": "https://www.ospino.ml/",
     "description": "Simple Portfolio resume built with React where is all my linkedin information.",
     "stack": [
