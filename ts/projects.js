@@ -21,7 +21,6 @@ var Project = /** @class */ (function () {
     Project.prototype.generateDesc = function () {
         var div = document.createElement("div");
         var h3 = document.createElement("h3");
-        var h4 = document.createElement("h4");
         var p = document.createElement("p");
         var stack_title = document.createElement("h5");
         var ul = document.createElement("ul");
@@ -29,8 +28,7 @@ var Project = /** @class */ (function () {
         div.classList.add("text");
 
         stack_title.innerHTML = "Technology Stack";
-        h3.innerHTML = this.desc.title;
-        h4.innerHTML = this.desc.date;
+        h3.innerHTML = "<strong>" + this.desc.title + "</strong>" + " - " + this.desc.date;
         p.innerHTML = this.desc.description;
 
         this.desc.stack.forEach((value) => {
@@ -41,7 +39,6 @@ var Project = /** @class */ (function () {
         })
 
         div.appendChild(h3);
-        div.appendChild(h4);
         div.appendChild(p);
         div.append(stack_title);
         div.appendChild(ul);
