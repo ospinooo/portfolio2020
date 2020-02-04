@@ -28,10 +28,11 @@ var Project = /** @class */ (function () {
         h3.innerHTML = this.desc.title;
         h4.innerHTML = this.desc.date;
         p.innerHTML = this.desc.description;
-
+        console.log(ul);
         this.desc.stack.forEach((value) => {
             let item = document.createElement("li");
             item.innerHTML = value;
+            console.log(value)
             ul.appendChild(item);
         })
 
@@ -39,6 +40,7 @@ var Project = /** @class */ (function () {
         div.appendChild(h4);
         div.appendChild(p);
         div.appendChild(ul);
+        console.log(div);
         return div;
     };
     return Project;
