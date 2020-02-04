@@ -9,7 +9,7 @@
     --bullet-size: 11px;
     --scrollbar-background: darkgrey;
     --scrollbar-outline: slategrey;
-    --accent-color: #ee4565;
+    --accent-color: #000;
 }
 
 body::-webkit-scrollbar {
@@ -17,7 +17,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
 body::-webkit-scrollbar-thumb {
