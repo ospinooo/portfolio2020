@@ -2,7 +2,8 @@
 @import "animations.css";
 @import "global.css";
 
-html, body {
+html,
+body {
     height: calc(100% - 23px);
     font-family: var(--main-font-family);
     transition: all var(--default-transition-length) ease-in-out;
@@ -10,7 +11,12 @@ html, body {
     background-color: var(--background-main-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--header-font-family);
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -94,12 +100,15 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
-.slide-left, .slide-top {
+.slide-left,
+.slide-top {
     visibility: hidden;
     pointer-events: none;
 }
 
-.slide-top-animated, .slide-bottom-animated, .slide-left-animated {
+.slide-top-animated,
+.slide-bottom-animated,
+.slide-left-animated {
     visibility: visible;
     pointer-events: all;
 }
@@ -141,7 +150,8 @@ h1, h2, h3, h4, h5, h6 {
     transition: all .5s ease;
 }
 
-.social-grid a, .links-grid a {
+.social-grid a,
+.links-grid a {
     text-decoration: none;
     color: var(--main-font-color);
 }
@@ -247,4 +257,16 @@ p {
 
 .smaller {
     font-size: 12px !important;
+}
+
+
+
+/* User can't select the text */
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
