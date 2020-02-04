@@ -24,9 +24,11 @@ var Project = /** @class */ (function () {
         var h4 = document.createElement("h4");
         var p = document.createElement("p");
         var stack_title = document.createElement("h5");
-        stack_title.innerHTML = "Technology Stack";
         var ul = document.createElement("ul");
+
         div.classList.add("text");
+
+        stack_title.innerHTML = "Technology Stack";
         h3.innerHTML = this.desc.title;
         h4.innerHTML = this.desc.date;
         p.innerHTML = this.desc.description;
