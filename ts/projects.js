@@ -3,6 +3,7 @@ var Project = /** @class */ (function () {
         this.desc = desc;
     }
     Project.prototype.generate = function () {
+        var a_wrap = document.createElement("a");
         var project = document.createElement("div");
         var innerDiv = document.createElement("div");
         project.classList.add("single-project");
@@ -10,7 +11,9 @@ var Project = /** @class */ (function () {
         innerDiv.appendChild(this.generateImg());
         innerDiv.appendChild(this.generateDesc());
         project.appendChild(innerDiv);
-        return project;
+        a_wrap.href = this.desc.url;
+        a_wrap.appendChild(project);
+        return a_wrap;
     };
     Project.prototype.generateImg = function () {
         var img = document.createElement("div");
