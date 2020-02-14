@@ -8,5 +8,10 @@
     "link": "https://www.linkedin.com/in/pabloospino",
     "title": "Linkedin",
     "service": "linkedin"
+  },
+  {
+    "link": "https://www.medium.com/pabloospino",
+    "title": "Medium",
+    "service": "medium"
   }
 ]

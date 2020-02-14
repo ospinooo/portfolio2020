@@ -1,6 +1,6 @@
 var getSourceFromService = {
-    "github": "assets/icons/nucleo-social-icons/nucleo-social-icons/svg/social-1_round-github.svg",
-    "linkedin": "assets/icons/nucleo-social-icons/nucleo-social-icons/svg/social-1_round-linkedin.svg",
+    "github": "assets/icons/github.svg",
+    "linkedin": "assets/icons/linkedin.svg",
     "facebook": "assets/icons/nucleo-social-icons/nucleo-social-icons/svg/social-1_round-facebook.svg",
     "cv": "assets/icons/nucleo-social-icons/nucleo-social-icons/svg/social-1_round-cv.png",
     "leetcode": "assets/icons/nucleo-social-icons/nucleo-social-icons/svg/social-1_round-leetcode.png",
@@ -21,6 +21,7 @@ var getSourceFromService = {
     "twitter": "assets/icons/nucleo-social-icons/nucleo-social-icons/svg/social-1_round-twitter.svg",
     "vimeo": "assets/icons/nucleo-social-icons/nucleo-social-icons/svg/social-1_round-vimeo.svg",
     "wordpress": "assets/icons/nucleo-social-icons/nucleo-social-icons/svg/social-1_round-wordpress.svg",
+    "medium": "assets/icons/medium.svg"
 };
 var SingleSocial = /** @class */ (function () {
     function SingleSocial(social) {
