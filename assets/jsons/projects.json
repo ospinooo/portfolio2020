@@ -1,6 +1,20 @@
 [
   {
-    "title": "Photoshare",
+    "title": "Android Application",
+    "date": "Working",
+    "imgUrl": "assets/img/working_on.png",
+    "url": "https://ospino.me",
+    "description": "Android Application to connect people who want to work and people who need help for simple Tasks",
+    "stack": [
+      "<strong>Android</strong> : OS",
+      "<strong>Java</strong> : Programming Language",
+      "<strong>MongoDB</strong> : NoSQL DB",
+      "<strong>Parse</strong> : Node.js Server",
+      "<strong>Heroku</strong> : Deploy"
+    ]
+  },
+  {
+    "title": "Social Network Website",
     "date": "2019",
     "imgUrl": "assets/img/photoshare/post show.png",
     "description": "Social Network to share posts with images. Like your friends Posts ❤︎ !.",
