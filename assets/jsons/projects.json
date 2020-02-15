@@ -1,14 +1,14 @@
 [
   {
     "title": "Android Application",
-    "date": "Working",
-    "imgUrl": "assets/img/working_on.png",
+    "date": "In progress",
+    "imgUrl": "assets/img/gear.gif",
     "url": "https://ospino.me",
     "description": "Android Application to connect people who want to work and people who need help for simple Tasks",
     "stack": [
-      "<strong>Android</strong> : OS",
-      "<strong>Java</strong> : Programming Language",
+      "<strong>Android & Java</strong>",
       "<strong>MongoDB</strong> : NoSQL DB",
+      "<strong>MapBox</strong> : Maps",
       "<strong>Parse</strong> : Node.js Server",
       "<strong>Heroku</strong> : Deploy"
     ]
@@ -28,16 +28,16 @@
     ]
   },
   {
-    "title": "React Portfolio",
+    "title": "CV Website",
     "date": "2019",
     "imgUrl": "assets/img/portfolio/portfolio.png",
     "url": "https://www.ospino.ml/",
-    "description": "Simple Portfolio resume built with React where is all my linkedin information.",
+    "description": "Simple Portfolio resume built with React where it is all resume information.",
     "stack": [
       "<strong>React</strong> : Front-end",
       "<strong>Heroku</strong> : Deploy",
-      "<strong>Cloudfare</strong> : DNS",
-      "<strong>Freenom</strong>"
+      "<strong>Cloudfare</strong> : https",
+      "<strong>Freenom</strong> : Domain"
     ]
   },
   {
