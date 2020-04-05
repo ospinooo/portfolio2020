@@ -1,5 +1,18 @@
 [
   {
+    "title": "Coronavirus App",
+    "date": "April 2020",
+    "imgUrl": "assets/img/coronavirus/images/Screenshot_20200405-120851.jpg",
+    "url": "https://github.com/ospinooo/coronavirus",
+    "description": "Android Application to visualize all coronavirus statistics.",
+    "stack": [
+      "<strong>Android & Java</strong>",
+      "<strong>MapBox</strong> : Maps",
+      "<strong>MPAndroidChart</strong> : Graph library",
+      "<strong>Gson</strong> : Serialize library"
+    ]
+  },
+  {
     "title": "Android Application",
     "date": "In progress",
     "imgUrl": "assets/img/gear.gif",
