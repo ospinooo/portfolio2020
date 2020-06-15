@@ -1,5 +1,22 @@
 [
   {
+    "title": "MusicMeets App",
+    "date": "May-June 2020",
+    "imgUrl": "assets/img/musicmeets/photo.png",
+    "url": "https://github.com/ospinooo/events-website",
+    "description": "Angular WebApp to buy tickets for Music Events.",
+    "stack": [
+      "<strong>Angular</strong>: Front end",
+      "<strong>Spring boot</strong>: Back end",
+      "<strong>Hibernate</strong>: Back end",
+      "<strong>JWT</strong>: Back end",
+      "<strong>Bulma</strong>: CSS framework",
+      "<strong>Postgres</strong> : SQL Database",
+      "<strong>Postman (dev)</strong>: Test Backend",
+      "<strong><a href='https://github.com/ospinooo/compose-postgres'>Docker compose (dev)</a></strong> : Postgres DB"
+    ]
+  },
+  {
     "title": "Coronavirus App",
     "date": "April 2020",
     "imgUrl": "assets/img/coronavirus/images/Screenshot_20200405-120851.jpg",
